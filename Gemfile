@@ -38,7 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 gem 'ruby-readability', '~> 0.7.0'
 gem 'twitter-bootstrap-rails', '~> 4.0'
-
+gem 'haml'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
