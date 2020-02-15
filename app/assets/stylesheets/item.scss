@@ -1,0 +1,30 @@
+.items-content{
+  ul.list-group{
+    li.list-group-item{
+      .item{
+        overflow: auto;
+        .item-left{
+          width: 25%;
+          padding: 10px;
+          float: left;
+          img{
+            width: 200px;
+            height: 200px;
+          }
+        }
+        .item-right{
+          width: 60%;
+          padding: 10px;
+          float: left;
+        }
+      }
+    }
+  }
+}
+
+.item-content{
+  img{
+    max-width: 900px;
+    max-height: 500px;
+  }
+}

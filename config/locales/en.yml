@@ -3,4 +3,8 @@ en:
     index:
       titles:
         latest_hacker_news: Latest Hacker News
+        read_more: Read more >>
+  errors:
+    source_empty: 'URL is empty'
+    cannot_parse_url: 'Cannot parse URL'
 

@@ -1,0 +1,9 @@
+%li.list-group-item
+  .item
+    .item-left
+      =image_tag(item&.image_src.present? ? item&.image_src : default_image_url)
+    .item-right
+      %strong= item.title
+      %p
+      %p= short_content(item.content)
+      = link_to t('items.index.titles.read_more'), item_path(item.id), class: 'btn btn-info btn-read-more'

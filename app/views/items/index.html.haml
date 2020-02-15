@@ -1,1 +1,4 @@
-%h1= t('items.index.titles.latest_hacker_news')
+.items-content
+  %ul.list-group.list-group-flush
+    - @items.each do |item|
+      = render 'item', item: item
