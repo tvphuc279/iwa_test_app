@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require './lib/parser'
+
 # Class for processing news links from URL 'https://news.ycombinator.com/best'
 class ProcessLatestItems
   prepend SimpleCommand
