@@ -13,7 +13,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'nokogiri', '~> 1.6', '>= 1.6.8'
+gem 'nokogiri', '~> 1.11'
 gem 'ruby-readability', '~> 0.7.0'
 gem "therubyracer"
 gem 'twitter-bootstrap-rails', '~> 4.0'
